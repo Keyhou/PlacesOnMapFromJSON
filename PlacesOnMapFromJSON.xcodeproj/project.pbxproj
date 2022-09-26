@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF753B6528E190C5009C76FA /* PlacesOnMapFromJSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */; };
+		EF753B6728E190C5009C76FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B6628E190C5009C76FA /* ContentView.swift */; };
+		EF753B6928E190C6009C76FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF753B6828E190C6009C76FA /* Assets.xcassets */; };
+		EF753B6C28E190C6009C76FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF753B6B28E190C6009C76FA /* Preview Assets.xcassets */; };
+		EF753B7628E190C6009C76FA /* PlacesOnMapFromJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B7528E190C6009C76FA /* PlacesOnMapFromJSONTests.swift */; };
+		EF753B8028E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B7F28E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift */; };
+		EF753B8228E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B8128E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF753B7228E190C6009C76FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF753B5928E190C5009C76FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF753B6028E190C5009C76FA;
+			remoteInfo = PlacesOnMapFromJSON;
+		};
+		EF753B7C28E190C6009C76FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF753B5928E190C5009C76FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF753B6028E190C5009C76FA;
+			remoteInfo = PlacesOnMapFromJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF753B6128E190C5009C76FA /* PlacesOnMapFromJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesOnMapFromJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONApp.swift; sourceTree = "<group>"; };
+		EF753B6628E190C5009C76FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF753B6828E190C6009C76FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF753B6B28E190C6009C76FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF753B7128E190C6009C76FA /* PlacesOnMapFromJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesOnMapFromJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF753B7528E190C6009C76FA /* PlacesOnMapFromJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONTests.swift; sourceTree = "<group>"; };
+		EF753B7B28E190C6009C76FA /* PlacesOnMapFromJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesOnMapFromJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF753B7F28E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONUITests.swift; sourceTree = "<group>"; };
+		EF753B8128E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF753B5E28E190C5009C76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B6E28E190C6009C76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B7828E190C6009C76FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF753B5828E190C5009C76FA = {
+			isa = PBXGroup;
+			children = (
+				EF753B6328E190C5009C76FA /* PlacesOnMapFromJSON */,
+				EF753B7428E190C6009C76FA /* PlacesOnMapFromJSONTests */,
+				EF753B7E28E190C6009C76FA /* PlacesOnMapFromJSONUITests */,
+				EF753B6228E190C5009C76FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF753B6228E190C5009C76FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF753B6128E190C5009C76FA /* PlacesOnMapFromJSON.app */,
+				EF753B7128E190C6009C76FA /* PlacesOnMapFromJSONTests.xctest */,
+				EF753B7B28E190C6009C76FA /* PlacesOnMapFromJSONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF753B6328E190C5009C76FA /* PlacesOnMapFromJSON */ = {
+			isa = PBXGroup;
+			children = (
+				EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */,
+				EF753B6628E190C5009C76FA /* ContentView.swift */,
+				EF753B6828E190C6009C76FA /* Assets.xcassets */,
+				EF753B6A28E190C6009C76FA /* Preview Content */,
+			);
+			path = PlacesOnMapFromJSON;
+			sourceTree = "<group>";
+		};
+		EF753B6A28E190C6009C76FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF753B6B28E190C6009C76FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF753B7428E190C6009C76FA /* PlacesOnMapFromJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF753B7528E190C6009C76FA /* PlacesOnMapFromJSONTests.swift */,
+			);
+			path = PlacesOnMapFromJSONTests;
+			sourceTree = "<group>";
+		};
+		EF753B7E28E190C6009C76FA /* PlacesOnMapFromJSONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF753B7F28E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift */,
+				EF753B8128E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift */,
+			);
+			path = PlacesOnMapFromJSONUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF753B6028E190C5009C76FA /* PlacesOnMapFromJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF753B8528E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSON" */;
+			buildPhases = (
+				EF753B5D28E190C5009C76FA /* Sources */,
+				EF753B5E28E190C5009C76FA /* Frameworks */,
+				EF753B5F28E190C5009C76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlacesOnMapFromJSON;
+			productName = PlacesOnMapFromJSON;
+			productReference = EF753B6128E190C5009C76FA /* PlacesOnMapFromJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF753B7028E190C6009C76FA /* PlacesOnMapFromJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF753B8828E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSONTests" */;
+			buildPhases = (
+				EF753B6D28E190C6009C76FA /* Sources */,
+				EF753B6E28E190C6009C76FA /* Frameworks */,
+				EF753B6F28E190C6009C76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF753B7328E190C6009C76FA /* PBXTargetDependency */,
+			);
+			name = PlacesOnMapFromJSONTests;
+			productName = PlacesOnMapFromJSONTests;
+			productReference = EF753B7128E190C6009C76FA /* PlacesOnMapFromJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF753B7A28E190C6009C76FA /* PlacesOnMapFromJSONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF753B8B28E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSONUITests" */;
+			buildPhases = (
+				EF753B7728E190C6009C76FA /* Sources */,
+				EF753B7828E190C6009C76FA /* Frameworks */,
+				EF753B7928E190C6009C76FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF753B7D28E190C6009C76FA /* PBXTargetDependency */,
+			);
+			name = PlacesOnMapFromJSONUITests;
+			productName = PlacesOnMapFromJSONUITests;
+			productReference = EF753B7B28E190C6009C76FA /* PlacesOnMapFromJSONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF753B5928E190C5009C76FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EF753B6028E190C5009C76FA = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					EF753B7028E190C6009C76FA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EF753B6028E190C5009C76FA;
+					};
+					EF753B7A28E190C6009C76FA = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = EF753B6028E190C5009C76FA;
+					};
+				};
+			};
+			buildConfigurationList = EF753B5C28E190C5009C76FA /* Build configuration list for PBXProject "PlacesOnMapFromJSON" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF753B5828E190C5009C76FA;
+			productRefGroup = EF753B6228E190C5009C76FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF753B6028E190C5009C76FA /* PlacesOnMapFromJSON */,
+				EF753B7028E190C6009C76FA /* PlacesOnMapFromJSONTests */,
+				EF753B7A28E190C6009C76FA /* PlacesOnMapFromJSONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF753B5F28E190C5009C76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF753B6C28E190C6009C76FA /* Preview Assets.xcassets in Resources */,
+				EF753B6928E190C6009C76FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B6F28E190C6009C76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B7928E190C6009C76FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF753B5D28E190C5009C76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF753B6728E190C5009C76FA /* ContentView.swift in Sources */,
+				EF753B6528E190C5009C76FA /* PlacesOnMapFromJSONApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B6D28E190C6009C76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF753B7628E190C6009C76FA /* PlacesOnMapFromJSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF753B7728E190C6009C76FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF753B8228E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift in Sources */,
+				EF753B8028E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF753B7328E190C6009C76FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF753B6028E190C5009C76FA /* PlacesOnMapFromJSON */;
+			targetProxy = EF753B7228E190C6009C76FA /* PBXContainerItemProxy */;
+		};
+		EF753B7D28E190C6009C76FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF753B6028E190C5009C76FA /* PlacesOnMapFromJSON */;
+			targetProxy = EF753B7C28E190C6009C76FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF753B8328E190C6009C76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF753B8428E190C6009C76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF753B8628E190C6009C76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlacesOnMapFromJSON/Preview Content\"";
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF753B8728E190C6009C76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlacesOnMapFromJSON/Preview Content\"";
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF753B8928E190C6009C76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesOnMapFromJSON.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlacesOnMapFromJSON";
+			};
+			name = Debug;
+		};
+		EF753B8A28E190C6009C76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesOnMapFromJSON.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlacesOnMapFromJSON";
+			};
+			name = Release;
+		};
+		EF753B8C28E190C6009C76FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlacesOnMapFromJSON;
+			};
+			name = Debug;
+		};
+		EF753B8D28E190C6009C76FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TBRLBN5H2K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyhanmortezaeifar.PlacesOnMapFromJSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlacesOnMapFromJSON;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF753B5C28E190C5009C76FA /* Build configuration list for PBXProject "PlacesOnMapFromJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF753B8328E190C6009C76FA /* Debug */,
+				EF753B8428E190C6009C76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF753B8528E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF753B8628E190C6009C76FA /* Debug */,
+				EF753B8728E190C6009C76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF753B8828E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF753B8928E190C6009C76FA /* Debug */,
+				EF753B8A28E190C6009C76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF753B8B28E190C6009C76FA /* Build configuration list for PBXNativeTarget "PlacesOnMapFromJSONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF753B8C28E190C6009C76FA /* Debug */,
+				EF753B8D28E190C6009C76FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF753B5928E190C5009C76FA /* Project object */;
+}
