@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF5AA74C28E1960800A2A578 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA74B28E1960800A2A578 /* JSONModel.swift */; };
+		EF5AA74E28E196DE00A2A578 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA74D28E196DE00A2A578 /* MapView.swift */; };
+		EF5AA75028E196EC00A2A578 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5AA74F28E196EC00A2A578 /* ListView.swift */; };
+		EF71360B28E1AAD900655D92 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71360A28E1AAD900655D92 /* PlaceDetailView.swift */; };
+		EF71360D28E1F80200655D92 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71360C28E1F80200655D92 /* PickerView.swift */; };
 		EF753B6528E190C5009C76FA /* PlacesOnMapFromJSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */; };
 		EF753B6728E190C5009C76FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B6628E190C5009C76FA /* ContentView.swift */; };
 		EF753B6928E190C6009C76FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF753B6828E190C6009C76FA /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		EF753B7628E190C6009C76FA /* PlacesOnMapFromJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B7528E190C6009C76FA /* PlacesOnMapFromJSONTests.swift */; };
 		EF753B8028E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B7F28E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift */; };
 		EF753B8228E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF753B8128E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift */; };
+		EFF0F9D628E1959400125414 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = EFF0F9D528E1959400125414 /* places.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF5AA74B28E1960800A2A578 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		EF5AA74D28E196DE00A2A578 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EF5AA74F28E196EC00A2A578 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		EF71360A28E1AAD900655D92 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		EF71360C28E1F80200655D92 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		EF753B6128E190C5009C76FA /* PlacesOnMapFromJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesOnMapFromJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONApp.swift; sourceTree = "<group>"; };
 		EF753B6628E190C5009C76FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		EF753B7B28E190C6009C76FA /* PlacesOnMapFromJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesOnMapFromJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF753B7F28E190C6009C76FA /* PlacesOnMapFromJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONUITests.swift; sourceTree = "<group>"; };
 		EF753B8128E190C6009C76FA /* PlacesOnMapFromJSONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOnMapFromJSONUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFF0F9D528E1959400125414 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF5AA75128E196FF00A2A578 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AA74D28E196DE00A2A578 /* MapView.swift */,
+				EF71360C28E1F80200655D92 /* PickerView.swift */,
+				EF5AA74F28E196EC00A2A578 /* ListView.swift */,
+				EF71360A28E1AAD900655D92 /* PlaceDetailView.swift */,
+				EF753B6628E190C5009C76FA /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF5AA75228E1970C00A2A578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AA74B28E1960800A2A578 /* JSONModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF5AA75328E1971400A2A578 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EFF0F9D528E1959400125414 /* places.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		EF753B5828E190C5009C76FA = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +134,10 @@
 		EF753B6328E190C5009C76FA /* PlacesOnMapFromJSON */ = {
 			isa = PBXGroup;
 			children = (
+				EF5AA75328E1971400A2A578 /* Data */,
+				EF5AA75228E1970C00A2A578 /* Model */,
+				EF5AA75128E196FF00A2A578 /* View */,
 				EF753B6428E190C5009C76FA /* PlacesOnMapFromJSONApp.swift */,
-				EF753B6628E190C5009C76FA /* ContentView.swift */,
 				EF753B6828E190C6009C76FA /* Assets.xcassets */,
 				EF753B6A28E190C6009C76FA /* Preview Content */,
 			);
@@ -231,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF0F9D628E1959400125414 /* places.json in Resources */,
 				EF753B6C28E190C6009C76FA /* Preview Assets.xcassets in Resources */,
 				EF753B6928E190C6009C76FA /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF753B6728E190C5009C76FA /* ContentView.swift in Sources */,
+				EF71360B28E1AAD900655D92 /* PlaceDetailView.swift in Sources */,
+				EF5AA74E28E196DE00A2A578 /* MapView.swift in Sources */,
+				EF5AA75028E196EC00A2A578 /* ListView.swift in Sources */,
 				EF753B6528E190C5009C76FA /* PlacesOnMapFromJSONApp.swift in Sources */,
+				EF71360D28E1F80200655D92 /* PickerView.swift in Sources */,
+				EF5AA74C28E1960800A2A578 /* JSONModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +468,7 @@
 				DEVELOPMENT_TEAM = TBRLBN5H2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Le GPS est nécessaire pour vous localiser";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +498,7 @@
 				DEVELOPMENT_TEAM = TBRLBN5H2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Le GPS est nécessaire pour vous localiser";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Café CRAFT",
+        "lat": 48.8731907,
+        "lon": 2.3631488,
+        "address": "24 Rue des Vinaigriers - 75010 Paris",
+        "type": "coffee / coworking",
+        "url": "http://cafe-craft.com",
+        "wifi": true
+    },
+    {
+        "id": 2,
+        "name": "L'ANTICAFE",
+        "lat": 48.8625921,
+        "lon": 2.3512003,
+        "address": "79 Rue Quincampoix - 75003 Paris",
+        "type": "coworking",
+        "url": "http://anticafe.fr",
+        "wifi": true
+    },
+    {
+        "id": 3,
+        "name": "Soleilles Cowork",
+        "lat": 48.868143,
+        "lon": 2.339605,
+        "address": "13 rue Vivienne - 75002 Paris",
+        "type": "coworking",
+        "url": "http://www.soleillescowork.com",
+        "wifi": true
+    },
+    {
+        "id": 4,
+        "name": "Le Laptop",
+        "lat": 48.877406,
+        "lon": 2.3907456,
+        "address": "6 Rue Arthur Rozier - 75019 Paris",
+        "type": "coworking",
+        "url": "http://www.lelaptop.com",
+        "wifi": true
+    },
+    {
+        "id": 5,
+        "name": "NUMA Paris",
+        "lat": 48.8675894,
+        "lon": 2.3496312,
+        "address": "39 Rue du Caire - 75002 Paris",
+        "type": "coworking",
+        "url": "http://cowork.numaparis.com/",
+        "wifi": true
+    },
+    {
+        "id": 6,
+        "name": "BGE PaRIF",
+        "lat": 48.8682709,
+        "lon": 2.3663365,
+        "address": "18 Rue du Faubourg du Temple - 75011 Paris",
+        "type": "coworking",
+        "url": "http://www.bgparif.com/coworking/",
+        "wifi": true
+    },
+    {
+        "id": 7,
+        "name": "Mozaik Coworking",
+        "lat": 48.875829,
+        "lon": 2.3468634,
+        "address": "9 Rue Bleue - 75009 Paris",
+        "type": "coworking",
+        "url": "http://www.mozaik-coworking.com/",
+        "wifi": true
+    },
+    {
+        "id": 8,
+        "name": "La Mutinerie",
+        "lat": 48.8795595,
+        "lon": 2.3717432,
+        "address": "29 rue de Meaux - 75019 Paris",
+        "type": "coworking",
+        "url": "http://www.mutinerie.org",
+        "wifi": true
+    },
+    {
+        "id": 9,
+        "name": "Delaville Café",
+        "lat": 48.870664,
+        "lon": 2.348671,
+        "address": "34 Bd de Bonne Nouvelle - 75010 Paris",
+        "type": "coffee",
+        "url": "http://delavillecafe.com/",
+        "wifi": true
+    },
+    {
+        "id": 10,
+        "name": "La cordée",
+        "lat": 48.8489557,
+        "lon": 2.3745205,
+        "address": "61 Rue Traversière - 75012 Paris",
+        "type": "coworking",
+        "url": "http://www.la-cordee.net/en/la-cordee-paris-gare-de-lyon-2",
+        "wifi": true
+    },
+    {
+        "id": 11,
+        "name": "Citizen Box",
+        "lat": 48.896911,
+        "lon": 2.3529419,
+        "address": "146 rue des Poissonniers - 75018 PARIS",
+        "type": "coworking",
+        "url": "http://www.citizenbox.fr",
+        "wifi": true
+    },
+    {
+        "id": 12,
+        "name": "Studios singuliers",
+        "lat": 48.8939112,
+        "lon": 2.3540976,
+        "address": "46, rue René Clair – 75018 Paris",
+        "type": "coworking",
+        "url": "http://www.studios-singuliers.fr/",
+        "wifi": true
+    },
+    {
+        "id": 13,
+        "name": "Silicon Banlieue - les bains douches",
+        "lat": 48.9430815,
+        "lon": 2.2466453,
+        "address": "9 rue de Calais, 95100 Argenteuil",
+        "type": "coworking",
+        "url": "http://www.siliconbanlieue.fr",
+        "wifi": true
+    },
+    {
+        "id": 14,
+        "name": "CoWorkshop",
+        "lat": 48.8729534,
+        "lon": 2.3624861,
+        "address": "29, rue des vinaigriers 75010 paris",
+        "type": "coworking",
+        "url": "http://www.coworkshop.fr",
+        "wifi": true
+    }
+]
